@@ -1,0 +1,171 @@
+```css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0f172a;
+    color:white;
+    min-height:100vh;
+}
+
+.contenedor{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#cbd5e1;
+}
+
+.usuario{
+    background:#1e293b;
+    padding:20px;
+    border-radius:20px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.usuario input{
+    width:100%;
+    max-width:400px;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    margin-bottom:15px;
+    font-size:1rem;
+}
+
+.usuario button{
+    padding:15px 30px;
+    border:none;
+    border-radius:10px;
+    background:#3b82f6;
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+.panel{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.tarjeta{
+    background:#1e293b;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.tarjeta h2{
+    margin-bottom:10px;
+}
+
+.tarjeta p{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.barra{
+    width:100%;
+    height:30px;
+    background:#1e293b;
+    border-radius:20px;
+    overflow:hidden;
+    margin-bottom:40px;
+}
+
+.progreso{
+    width:0%;
+    height:100%;
+    background:linear-gradient(90deg,#22c55e,#3b82f6);
+    transition:0.5s;
+}
+
+.niveles{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.nivel-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.nivel-card h2{
+    margin-bottom:10px;
+}
+
+.nivel-card h3{
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.reto{
+    background:#0f172a;
+    padding:20px;
+    border-radius:15px;
+    font-size:2rem;
+    margin:20px 0;
+}
+
+.nivel-card input{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    margin-bottom:15px;
+    font-size:1rem;
+}
+
+.nivel-card button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#22c55e;
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+.nivel-card button:hover{
+    background:#16a34a;
+}
+
+#mensaje1,
+#mensaje2,
+#mensaje3{
+    margin-top:15px;
+    font-weight:bold;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+}
+```

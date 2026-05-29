@@ -1,0 +1,132 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misiones Matemáticas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <header>
+            <h1>🎮 Misiones Matemáticas</h1>
+            <p>Proyecto Digital · 1° Secundaria</p>
+        </header>
+
+        <section class="usuario">
+
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+
+            <button onclick="guardarNombre()">
+                Comenzar
+            </button>
+
+        </section>
+
+        <section class="panel">
+
+            <div class="tarjeta">
+                <h2>⭐ Puntos</h2>
+                <p id="puntos">0</p>
+            </div>
+
+            <div class="tarjeta">
+                <h2>🏆 Nivel</h2>
+                <p id="nivel">Aprendiz</p>
+            </div>
+
+        </section>
+
+        <section class="barra">
+
+            <div class="progreso" id="progreso"></div>
+
+        </section>
+
+        <section class="niveles">
+
+            <div class="nivel-card">
+
+                <h2>❄ Nivel 1</h2>
+
+                <h3>La montaña congelada</h3>
+
+                <p>
+                    Resuelve:
+                </p>
+
+                <div class="reto">
+                    8 + (-5)
+                </div>
+
+                <input type="text" id="respuesta1">
+
+                <button onclick="verificar1()">
+                    Verificar
+                </button>
+
+                <p id="mensaje1"></p>
+
+            </div>
+
+            <div class="nivel-card">
+
+                <h2>🔥 Nivel 2</h2>
+
+                <h3>Batalla de signos</h3>
+
+                <p>
+                    Resuelve:
+                </p>
+
+                <div class="reto">
+                    (-4)(-3)
+                </div>
+
+                <input type="text" id="respuesta2">
+
+                <button onclick="verificar2()">
+                    Verificar
+                </button>
+
+                <p id="mensaje2"></p>
+
+            </div>
+
+            <div class="nivel-card">
+
+                <h2>🍕 Nivel 3</h2>
+
+                <h3>Pizza infinita</h3>
+
+                <p>
+                    Resuelve:
+                </p>
+
+                <div class="reto">
+                    1/4 + 2/4
+                </div>
+
+                <input type="text" id="respuesta3">
+
+                <button onclick="verificar3()">
+                    Verificar
+                </button>
+
+                <p id="mensaje3"></p>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
